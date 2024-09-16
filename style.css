@@ -1,0 +1,165 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #2a2a2e; /* Dark Gunmetal */
+    background-color: #f4f7fc; /* Light Blue-Grey */
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #2e3b4e; /* Deep Slate Blue */
+    color: #ffffff; /* White */
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700; /* Bold font for emphasis */
+    margin: 0;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: 400; /* Normal weight for subheading */
+    color: #ffd700; /* Golden color for elegance */
+}
+
+/* Section styling */
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #ffffff; /* White background for clarity */
+    border-left: 5px solid #00aaff; /* Bright Cyan for section highlight */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+}
+
+/* Section headings */
+h2 {
+    font-size: 24px;
+    color: #2e3b4e; /* Deep Slate Blue for section headings */
+    font-weight: 700; /* Bold font */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff6f61; /* Bold Coral Pink underline */
+    padding-bottom: 8px;
+}
+
+/* Info grid */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    font-size: 16px;
+}
+
+.info-grid div {
+    font-weight: 600; /* Semi-bold for emphasis */
+}
+
+/* Education section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    padding: 8px 0;
+    font-weight: 500;
+}
+
+/* Skills list styling */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list div {
+    background-color: #f4f4f4; /* Light Grey background */
+    color: #333; /* Dark Grey text */
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #00aaff; /* Cyan border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skills-list div:hover {
+    background-color: #00aaff; /* Cyan hover effect */
+    color: white;
+}
+
+/* Work experience */
+.experience {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2a2a2e;
+}
+
+/* Contact form */
+.contact-form {
+    margin: 40px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #2e3b4e; /* Deep Slate Blue */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00aaff; /* Cyan border */
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: #ff6f61; /* Coral Pink on focus */
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #00aaff; /* Bright Cyan */
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #007bb5; /* Darker Cyan */
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    background-color: #2e3b4e; /* Deep Slate Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
